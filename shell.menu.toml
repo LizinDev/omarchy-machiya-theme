@@ -1,0 +1,20 @@
+# machiya override for [menu].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are copied from
+# colors.toml -- if the palette changes, re-sync this file.
+
+# Cards, rows, and selected-row treatment. Alpha companions (where present)
+# go from 0 (invisible) to 1 (opaque). scrim is the full-screen dim layer
+# behind the card. Clipboard and emojis inherit these tokens.
+background                = "#0a1015"
+background-alpha          = 1.0
+text                      = "#a6b8b6"
+border                    = "#a6b8b6"
+border-alpha              = 0.25
+scrim                     = "#0a1015"
+scrim-alpha               = 0.5
+selected-background       = "#a6b8b6"
+selected-background-alpha = 0.08
+selected-text             = "#c2a06a"
+selected-border           = "#c2a06a"
+selected-border-alpha     = 0.50
