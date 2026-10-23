@@ -16,6 +16,9 @@ shouts.
 omarchy theme install https://github.com/LizinDev/omarchy-machiya-theme.git
 ```
 
+Installing applies the theme right away. To switch back to it later, run
+`omarchy theme set machiya`; to uninstall it, run `omarchy theme remove machiya`.
+
 ## Palette
 
 | Role | Hex | |
@@ -83,3 +86,9 @@ omarchy theme set machiya
 
 Iterate with `omarchy theme refresh`. `omarchy dev theme-preview colors.toml` prints
 the neutral ramp and a contrast reading.
+
+## License
+
+The theme files are released under the [MIT License](LICENSE). The pixel art the palette
+was designed against is someone else's work. It is not in this repository and the
+license does not cover it.
