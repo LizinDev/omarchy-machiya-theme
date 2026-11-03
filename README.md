@@ -47,6 +47,7 @@ so terminal output stays readable.
 | `backgrounds/` | a palette-derived gradient (see below) |
 | `preview.png` | theme-switcher tile |
 | `unlock.png` | Plymouth boot splash and SDDM logo |
+| `preview-unlock.png` | the boot splash's preview, which lists the theme in `omarchy plymouth list` |
 
 ## Backgrounds
 
