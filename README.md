@@ -41,7 +41,7 @@ so terminal output stays readable.
 | File | |
 |---|---|
 | `colors.toml` | the palette — generates 17 app configs on its own |
-| `hyprland.lua` | gold→teal border gradient + a warm shadow on the focused window |
+| `hyprland.lua` | gold→teal border gradient (`accent` → `cyan`) + a warm shadow on the focused window |
 | `shell.{menu,launcher,tooltip,lock}.toml` | per-section shell overrides |
 | `icons.theme` | `Yaru-prussiangreen-dark` |
 | `backgrounds/` | a palette-derived gradient (see below) |
